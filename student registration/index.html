@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student registration form</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body style="background-color: burlywood;">
+    <h2>Student Registration form using Table in HTML </h2>
+    <form action="">
+        <table>
+            <!-- First name -->
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" name="Firstname" maxlength="30" placeholder="aakash">(Max 30 character)</td>
+            </tr>
+            <!-- Last name -->
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="lastname" maxlength="30" placeholder="Maurya">(Max 30 character)</td>
+            </tr>
+            <!-- Email -->
+            <tr>
+                <td>Email</td>
+                <td><input type="text" email="email" maxlength="70" placeholder="aakash@gmail.com"></td>
+            </tr>
+            <!-- Mobile number -->
+            <tr>
+                <td>Mobile Number</td>
+                <td><input type="number" maxlength="10">(10 digits allowed)</td>
+            </tr>
+            <!-- gender -->
+            <tr>
+                <td>Gender</td>
+                <td><input type="checkbox">Male<input type="checkbox">Female</td>
+            </tr>
+            <!-- Date of Birth -->
+            <tr>
+                <td>Date of irth</td>
+                <td><input type="date"></td>
+            </tr>
+            <!-- Address -->
+            <tr>
+                <td>Adddress</td>
+                <td><textarea name="" id="" cols="40" rows="10"></textarea></td>
+            </tr>
+            
+            <!-- City -->
+            <tr>
+                <td>City</td>
+                <td><input type="text" maxlength="30" placeholder="Mumbai"></td>
+            </tr>
+            
+            <!-- Pin Code -->
+            <tr>
+                <td>Pin Code</td>
+                <td><input type="number" maxlength="6" placeholder="400067"></td>
+            </tr>
+            
+            <!-- State -->
+            <tr>
+                <td>State</td>
+                <td><input type="text"  maxlength="70" placeholder="Maharashtra"></td>
+            </tr>
+            <!-- Country -->
+            <tr>
+                <td>Country</td>
+                <td><input type="text"  maxlength="20" placeholder="India"></td>
+            </tr>
+            <!-- Hobbies -->
+            <tr>
+                <td>Hobbies</td>
+                <td><input type="checkbox">Singing
+                <input type="checkbox">Dancing
+                <input type="checkbox">Sketching
+                <input type="checkbox">Drawing
+                <input type="checkbox">Others   <br>
+                <input type="text" maxlength="30" placeholder="any other hobby">(Max 30 character allowed) </td>
+            </tr>
+            <!-- Qualification -->
+            <tr>
+                <td>Qualification</td>
+                <td>
+                    <input type="checkbox">High School(10th) <br>
+                    <input type="checkbox">Higher School(12th) <br>
+                    <input type="checkbox">Graduation(Bachelors) <br>
+                    <input type="checkbox">Post Graduation(Masters) <br>
+                    <input type="checkbox">Phd <br>
+                </td>
+            </tr>
+            <!--Courses Applied for  -->
+            <tr>
+                <td>Courses Applied for</td>
+                <td>
+                    <input type="checkbox">BCA (Bachelor of Computer Applications)<br>
+                    <input type="checkbox">B Com(Bachelor of Commerce)<br>
+                    <input type="checkbox">B.Sc( Bachelor of Science)<br>
+                    <input type="checkbox">BA (Bachelor of Arts)<br>
+                    <input type="checkbox">MCA (Masterr of Computer Applications)<br>
+                    <input type="checkbox">M.Com (Masterr of Commerce)<br>
+                    <input type="checkbox">M.Sc(Masterr of Science)<br>
+                    <input type="checkbox">MA(Masterr of Arts)<br>
+                </td>
+            </tr>
+            <!-- Submit and Reset -->
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit">
+                    <input type="reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
